@@ -135,63 +135,54 @@ article img {
   grid-gap: 20px;
   padding: 20px;
 }
-
-.item {
+.contenedor .item {
   background-color: tomato;
   border: 2px solid black;
   border-radius: 1px;
 }
-
-.item1 {
+.contenedor .item1 {
   grid-area: img1;
   background-image: url(img/edificio\ vm.jfif);
   background-size: cover;
   background-position: center;
 }
-
-.item2 {
+.contenedor .item2 {
   grid-area: img2;
   background-image: url(img/nosotros.jfif);
   background-size: cover;
   background-position: center;
 }
-
-.item3 {
+.contenedor .item3 {
   grid-area: img3;
   background-image: url(img/maquina.jfif);
   background-size: cover;
   background-position: center;
 }
-
-.item4 {
+.contenedor .item4 {
   grid-area: img4;
   background-image: url(img/andamio.jfif);
   background-size: cover;
   background-position: center;
 }
-
-.item5 {
+.contenedor .item5 {
   grid-area: img5;
   background-image: url(img/inicio.jfif);
   background-size: cover;
   background-position: center;
 }
-
-.item6 {
+.contenedor .item6 {
   grid-area: img6;
   background-image: url(img/construccion\ 1.jpg);
   background-size: cover;
   background-position: center;
 }
-
-.item7 {
+.contenedor .item7 {
   grid-area: img7;
   background-image: url(img/vieytes.jfif);
   background-size: cover;
   background-position: center;
 }
-
-.item8 {
+.contenedor .item8 {
   grid-area: img8;
   background-image: url(img/edificio\ vm2.jfif);
   background-size: cover;
