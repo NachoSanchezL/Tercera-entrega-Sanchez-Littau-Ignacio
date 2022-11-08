@@ -1,0 +1,282 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+
+    background-color: rgb(250, 163, 1);
+    
+}
+
+.navbar-brand{
+
+    color: #000 !important;
+    text-shadow: 0 0 5px #fff;
+}
+
+
+
+.jumbotron{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/andamio.jfif);
+    height: 250px;
+    background-position: center;
+    color: #ff0;
+    margin: 0;
+}
+
+button {
+
+border: 2px solid #000 !important;
+}
+
+h2{
+    background-color: black;
+    color:#ff0;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.nleft{
+
+    height: 590px;
+    background-image: url(img/inicio.jfif);
+    background-size: cover;
+    background-position:center ;
+}
+
+.ncenter{
+
+
+    height: 590px;
+    background-image: url(img/Alsina.jfif);
+    background-size: cover;
+    background-position:center ;
+}
+
+.nright{
+
+    height: 590px;
+    background-image: url(img/vieytes.jfif);
+    background-size: cover;
+    background-position:center ;   
+}
+
+
+footer{
+
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(img/modificación-mejoras-y-reparaciones-en-cosas-y-parte-comunes.jpg);
+    height: 150px;
+    background-position: center;
+    color: #ff0;
+    box-shadow: inset 0 0 5px 1px #ff0;
+    background-size:cover;
+    margin-left: 0px;
+    
+    
+}
+
+table {
+
+    padding: 10px;
+    border-color: black;
+    height: 150px;
+    background-color: whitesmoke ;
+    margin-top: 50px;
+    border: 3px solid #000;
+}
+
+article {
+
+    display: inline-block;
+
+}
+
+article img {
+
+    height:auto ;
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+.display{
+
+    
+    border-style: hidden;
+    padding: 30px;
+    
+}
+
+.display2{
+
+    
+    border-style: hidden;
+    padding: 30px;
+    
+}
+
+.display3{
+
+    
+    border-style: hidden;
+    padding: 30px;
+    
+}
+
+.foto1{
+
+    margin-top: 10px;
+    width: 380px;
+    height: 660px;
+}    
+    .foto1:hover {
+        transform: scale(1.5);
+    }
+    
+
+
+.espaciado{
+
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+}
+
+.center {
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.contenedor{
+
+
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:"img1 img2 img3 img3"
+                        "img1 img4 img5 img6"
+                        "img7 img4 img8 img8";
+                            
+    grid-gap: 20px;
+    padding: 20px;                    
+}
+
+.item{
+
+    background-color: tomato;
+    border: 2px solid black;
+    border-radius: 1px;
+}
+
+.item1{
+
+    grid-area: img1;
+    background-image: url(img/edificio\ vm.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.item2{
+
+    grid-area: img2;
+    background-image: url(img/nosotros.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.item3{
+
+    grid-area: img3 ;
+    background-image: url(img/maquina.jfif);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.item4{
+
+    grid-area: img4;
+    background-image: url(img/andamio.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.item5{
+
+    grid-area: img5;
+    background-image: url(img/inicio.jfif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.item6{
+
+    grid-area: img6;
+    background-image: url(img/construccion\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item7{
+
+    grid-area: img7;
+    background-image: url(img/vieytes.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.item8{
+
+    grid-area: img8;
+    background-image: url(img/edificio\ vm2.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.faq{
+
+    font-weight: lighter;
+}
+
+
+.question{
+
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media only screen and(max-width: 800px) {
+
+    .espaciado {
+        
+        width: 100%;
+        display: flex;
+    }
+
+}
