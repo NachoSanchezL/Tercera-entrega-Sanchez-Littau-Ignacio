@@ -107,8 +107,7 @@ article img {
   width: 380px;
   height: 660px;
 }
-
-.foto1:hover {
+.foto1 .foto1:hover {
   transform: scale(1.5);
 }
 

@@ -137,12 +137,12 @@ article img {
     margin-top: 10px;
     width: 380px;
     height: 660px;
-}    
+    
     .foto1:hover {
         transform: scale(1.5);
     }
     
-
+}
 
 .espaciado{
 
@@ -273,6 +273,8 @@ article img {
 
 
 
+
+
 @media only screen and(max-width: 800px) {
 
     .espaciado {
@@ -280,5 +282,6 @@ article img {
         width: 100%;
         display: flex;
     }
+
 
 }
