@@ -197,6 +197,10 @@ article img {
   font-weight: bold;
 }
 
+.jumbotron {
+  border-radius: 0%;
+}
+
 @media only screen and (max-width: 800px) {
   .espaciado {
     width: 100%;
