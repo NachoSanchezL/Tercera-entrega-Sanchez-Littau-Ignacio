@@ -201,6 +201,11 @@ article img {
   border-radius: 0%;
 }
 
+.btnig {
+  list-style-type: none;
+  color: #ff0;
+}
+
 @media only screen and (max-width: 800px) {
   .espaciado {
     width: 100%;
